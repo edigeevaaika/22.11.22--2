@@ -3,13 +3,17 @@
 }
 main {
 display: flex;
+flex-wrap: wrap;
 }
 header {
   background-color: rgb(34, 214, 148);
+  flex: 1 1 100%;
 }
 aside {
   background-color: rgb(104, 69, 27);
+  flex: 0 0 250px;
 }
 article {
   background-color: rgb(104, 37, 116);
+  flex: 1 1 0;
 }
